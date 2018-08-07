@@ -8,11 +8,11 @@
         </div>
         
         {% for everypost in posts %}
-        <div>
-        	<p style="opacity: .4">published: {{everypost.published_date}}</p>
-        	<h3><a href ="">{{everypost.title}}</a></h3>
-        	<p>{{everypost.text|linebreaksbr}}</p>
-        </div>
+	        <div>
+	        	<p style="opacity: .4">published: {{everypost.published_date}}</p>
+	        	<h3><a href ="">{{everypost.title}}</a></h3>
+	        	<p>{{everypost.text|linebreaksbr}}</p>
+	        </div>
         {% endfor %}
 
     </body>
