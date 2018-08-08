@@ -36,8 +36,9 @@ h1, h2, h3, h4 {
 .top-menu, .top-menu:hover, .top-menu:visited {
     color: #ffffff;
     float: right;
-    font-size: 26pt;
-    margin-right: 20px;
+    font-size: 12pt;
+    opacity: .9;
+    margin-right: 5px;
 }
 
 .post {
@@ -49,4 +50,7 @@ h1, h2, h3, h4 {
 }
 div .publish {
 	float:right;
+}
+.comment{
+    margin: 20px 0 20px 20px;
 }
